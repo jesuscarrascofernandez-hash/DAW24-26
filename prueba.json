@@ -1,0 +1,102 @@
+{
+    "personas": [
+        {
+            "nombre": "Jesús Carrasco Fernández",
+            "alias": "Juja",
+            "estado": "Vivo",
+            "foto": "img/yogojo.jpeg"
+        },
+        {
+            "nombre": "Alberto Castaño Mercader",
+            "alias": "Big A",
+            "estado": "Vivo",
+            "foto": "img/bigaciego.jpeg"
+        },
+        {
+            "nombre": "Marlon Joseph Cotto Sotomayor",
+            "alias": "El de la gorra",
+            "estado": "Vivo",
+            "foto": "img/panchiporro.jpg"
+        },
+        {
+            "nombre": "Hamza Daoudi Jaafari",
+            "alias": "Moro",
+            "estado": "Vivo",
+            "foto": "img/moropatatas.jpeg"
+        },
+        {
+            "nombre": "Domingo García Rodriguez",
+            "alias": "El contratado",
+            "estado": "Muerto",
+            "foto": "img/domingodep.jpeg"
+        },
+        {
+            "nombre": "Francisco José López Espinosa",
+            "alias": "Colegón",
+            "estado": "Muerto",
+            "foto": "img/colegondep.png"
+        },
+        {
+            "nombre": "Elena López Gambín",
+            "alias": "La Elena",
+            "estado": "Vivo",
+            "foto": "img/elena.png"
+        },
+        {
+            "nombre": "Uriel López Vidal",
+            "alias": "Uri bueno",
+            "estado": "Vivo",
+            "foto": "img/uribuenobeso.jpeg"
+        },
+        {
+            "nombre": "Francisco José Madrid García",
+            "alias": "Madrid",
+            "estado": "Vivo",
+            "foto": "img/madridperro2.jpg"
+        },
+        {
+            "nombre": "Álvaro Martínez Cuadros",
+            "alias": "Tryhard",
+            "estado": "Vivo",
+            "foto": "img/alvarina.jpeg"
+        },
+        {
+            "nombre": "Uriel Martínez Martínez",
+            "alias": "Uri malo",
+            "estado": "Vivo",
+            "foto": "img/gitanoia.png"
+        },
+        {
+            "nombre": "José Antonio Peñalver Hernández",
+            "alias": "Mr. C",
+            "estado": "Vivo",
+            "foto": "img/mrcjarvis.jpeg",
+            "ajuste": "contain"
+        },
+        {
+            "nombre": "Erikas Pilipavicius Pilipaviciene",
+            "alias": "Pichadelicius",
+            "estado": "Vivo",
+            "foto": "img/pichadeliciusporrete.jpeg"
+        },
+        {
+            "nombre": "Eduardo Piquer Sánchez",
+            "alias": "Tronco",
+            "estado": "Vivo",
+            "foto": "img/edufeka.webp"
+        },
+        {
+            "nombre": "Jaime Rubio López",
+            "alias": "El Jaime",
+            "estado": "Vivo",
+            "foto": "img/jaimecegarro.jpeg"
+        },
+        {
+            "nombre": "Adrián Vicente López",
+            "alias": "Calvo",
+            "estado": "Vivo pero calvo",
+            "foto": "img/calvodep.png"
+        }
+        
+    ]
+}
