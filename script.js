@@ -9,10 +9,14 @@ function crearCard(persona) {
     } else if (persona.estado === "Muerto") {
         statusClass = "status-dead";
     }
+
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
-        <img class="card-image ${persona.ajuste === 'contain' ? 'card-image-contain' : ''}" src="${persona.foto}" alt="${persona.nombre}">
+        <div class="card-media">
+            <img class="card-image ${persona.ajuste === 'contain' ? 'card-image-contain' : ''}" src="${persona.foto}" alt="${persona.nombre}">
+            ${persona.video ? `<video class="card-video" src="${persona.video}" muted loop playsinline></video>` : ''}
+        </div>
         <div class="card-content">
             <h3 class="card-name">${persona.nombre}</h3>
             <div class="card-info">
@@ -27,6 +31,19 @@ function crearCard(persona) {
             </div>
         </div>
     `;
+
+    // Reproducir/pausar el vídeo al pasar el ratón
+    if (persona.video) {
+        const video = card.querySelector(".card-video");
+        card.addEventListener("mouseenter", () => {
+            video.play();
+        });
+        card.addEventListener("mouseleave", () => {
+            video.pause();
+            video.currentTime = 0;
+        });
+    }
+
     return card;
 }
 

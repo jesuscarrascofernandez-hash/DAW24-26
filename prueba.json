@@ -4,13 +4,15 @@
             "nombre": "Fernando Ureña Herrero",
             "alias": "El uña",
             "estado": "Gitaneando diseños",
-            "foto": "img/uña1.png"
+            "foto": "img/uña1.png",
+            "video": ""
         },
         {
             "nombre": "Víctor José Verdú López",
             "alias": "La doble V",
             "estado": "Haciendo boletines",
-            "foto": "img/verdunchenfadao.png"
+            "foto": "img/verdunchenfadao.png",
+            "video": ""
         }
     ],
     "personas": [
@@ -18,99 +20,114 @@
             "nombre": "Jesús Carrasco Fernández",
             "alias": "Juja",
             "estado": "Vivo",
-            "foto": "img/yogojo.jpeg"
+            "foto": "img/yogojo.jpeg",
+            "video": ""
         },
         {
             "nombre": "Alberto Castaño Mercader",
             "alias": "Big A",
             "estado": "Vivo",
-            "foto": "img/bigababilla.jpeg"
+            "foto": "img/bigababilla.jpeg",
+            "video": ""
         },
         {
             "nombre": "Marlon Joseph Cotto Sotomayor",
             "alias": "El de la gorra",
             "estado": "Vivo",
-            "foto": "img/panchiporro.jpg"
+            "foto": "img/panchiporro.jpg",
+            "video": ""
         },
         {
             "nombre": "Hamza Daoudi Jaafari",
             "alias": "Moro",
             "estado": "Vivo",
-            "foto": "img/moropatatas.jpeg"
+            "foto": "img/moropatatas.jpeg",
+            "video": "video/amorinterracial2.mp4"
         },
         {
             "nombre": "Domingo García Rodriguez",
             "alias": "El contratado",
             "estado": "Muerto",
-            "foto": "img/domingodep.jpeg"
+            "foto": "img/domingodep.jpeg",
+            "video": ""
         },
         {
             "nombre": "Francisco José López Espinosa",
             "alias": "Colegón",
             "estado": "Muerto",
-            "foto": "img/colegondep.png"
+            "foto": "img/colegondep.png",
+            "video": "video/colegonsanto.mp4"
         },
         {
             "nombre": "Elena López Gambín",
             "alias": "La recuperadora",
             "estado": "Vivo",
-            "foto": "img/elena.png"
+            "foto": "img/elena.png",
+            "video": ""
         },
         {
             "nombre": "Uriel López Vidal",
             "alias": "Uri bueno",
             "estado": "Vivo",
-            "foto": "img/uribuenobeso.jpeg"
+            "foto": "img/uribuenobeso.jpeg",
+            "video": ""
         },
         {
             "nombre": "Francisco José Madrid García",
             "alias": "Madrid",
             "estado": "Vivo",
-            "foto": "img/madridperro3.jpg"
+            "foto": "img/madridperro3.jpg",
+            "video": "video/madridtherian.mp4"
         },
         {
             "nombre": "Álvaro Martínez Cuadros",
             "alias": "Tryhard",
             "estado": "Vivo",
-            "foto": "img/alvarina.jpeg"
+            "foto": "img/alvarina.jpeg",
+            "video": "video/amorinterracial.mp4"
         },
         {
             "nombre": "Uriel Martínez Martínez",
             "alias": "Uri malo",
             "estado": "Vivo",
-            "foto": "img/gitanoia.png"
+            "foto": "img/gitanoia.png",
+            "video": "video/gitanobaile.mp4"
         },
         {
             "nombre": "José Antonio Peñalver Hernández",
             "alias": "Mr. C",
             "estado": "Vivo",
             "foto": "img/mrcjarvis.jpeg",
-            "ajuste": "contain"
+            "ajuste": "contain",
+            "video": "video/mrcjarvis.mp4"
         },
         {
             "nombre": "Erikas Pilipavicius Pilipaviciene",
             "alias": "Pichadelicius",
             "estado": "Vivo",
-            "foto": "img/pichadeliciusporrete.jpeg"
+            "foto": "img/pichadeliciusporrete.jpeg",
+            "video": "video/pichadeliciusbaile.mp4"
         },
         {
             "nombre": "Eduardo Piquer Sánchez",
             "alias": "Tronco",
             "estado": "Vivo",
-            "foto": "img/edufeka.webp"
+            "foto": "img/edufeka.webp",
+            "video": "video/edumalabares.mp4"
         },
         {
             "nombre": "Jaime Rubio López",
             "alias": "El Jaime",
             "estado": "Vivo",
-            "foto": "img/jaimecegarro.jpeg"
+            "foto": "img/jaimecegarro.jpeg",
+            "video": ""
         },
         {
             "nombre": "Adrián Vicente López",
             "alias": "Calvo",
             "estado": "Vivo pero calvo",
-            "foto": "img/calvodep.png"
+            "foto": "img/calvodep.png",
+            "video": ""
         }
-        
     ]
 }
