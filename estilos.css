@@ -104,6 +104,18 @@ header h1::before {
 }
 
 .cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.profesores-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.alumnos-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
@@ -214,7 +226,7 @@ header h1::before {
 }
 
 @media (max-width: 1200px) {
-    .cards-container {
+    .alumnos-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -224,7 +236,8 @@ header h1::before {
         font-size: 1.8rem;
     }
 
-    .cards-container {
+    .profesores-container,
+    .alumnos-container {
         grid-template-columns: 1fr;
     }
 }

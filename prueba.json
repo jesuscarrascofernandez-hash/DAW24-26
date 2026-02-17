@@ -1,4 +1,18 @@
 {
+    "profesores": [
+        {
+            "nombre": "Fernando Ureña Herrero",
+            "alias": "El uña",
+            "estado": "Gitaneando diseños",
+            "foto": "img/uña1.png"
+        },
+        {
+            "nombre": "Víctor José Verdú López",
+            "alias": "La doble V",
+            "estado": "Haciendo boletines",
+            "foto": "img/verdunchenfadao.png"
+        }
+    ],
     "personas": [
         {
             "nombre": "Jesús Carrasco Fernández",
@@ -10,7 +24,7 @@
             "nombre": "Alberto Castaño Mercader",
             "alias": "Big A",
             "estado": "Vivo",
-            "foto": "img/bigaciego.jpeg"
+            "foto": "img/bigababilla.jpeg"
         },
         {
             "nombre": "Marlon Joseph Cotto Sotomayor",
@@ -38,7 +52,7 @@
         },
         {
             "nombre": "Elena López Gambín",
-            "alias": "La Elena",
+            "alias": "La recuperadora",
             "estado": "Vivo",
             "foto": "img/elena.png"
         },
