@@ -15,7 +15,7 @@ function crearCard(persona, esProfesor = false) {
     }
 
     const card = document.createElement("div");
-    card.className = "card";
+    card.className = persona.video ? "card card--has-video" : "card";
     card.innerHTML = `
         <div class="card-media">
             <img class="card-image ${persona.ajuste === 'contain' ? 'card-image-contain' : ''}" src="${persona.foto}" alt="${persona.nombre}">
