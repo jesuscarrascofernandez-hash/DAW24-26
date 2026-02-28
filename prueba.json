@@ -12,7 +12,7 @@
             "alias": "La doble V",
             "estado": "Haciendo boletines",
             "foto": "img/verdunchenfadao.png",
-            "video": ""
+            "video": "video/verdunchvideo.mp4"
         }
     ],
     "personas": [
@@ -21,7 +21,7 @@
             "alias": "Juja",
             "estado": "Vivo",
             "foto": "img/yogojo.jpeg",
-            "video": ""
+            "video": "video/yovideo.mp4"
         },
         {
             "nombre": "Alberto Castaño Mercader",
@@ -35,7 +35,7 @@
             "alias": "El de la gorra",
             "estado": "Vivo",
             "foto": "img/panchiporro.jpg",
-            "video": ""
+            "video": "video/panchivideo.mp4"
         },
         {
             "nombre": "Hamza Daoudi Jaafari",
@@ -63,14 +63,14 @@
             "alias": "La recuperadora",
             "estado": "Vivo",
             "foto": "img/elena.png",
-            "video": ""
+            "video": "video/elenavideo.mp4"
         },
         {
             "nombre": "Uriel López Vidal",
             "alias": "Uri bueno",
             "estado": "Vivo",
             "foto": "img/uribuenobeso.jpeg",
-            "video": ""
+            "video": "video/uribuenovideo.mp4"
         },
         {
             "nombre": "Francisco José Madrid García",
