@@ -1,0 +1,78 @@
+{
+    "profesores": [
+        {
+            "nombre": "Fernando Ureña Herrero",
+            "foto": "img/placeholder.png"
+        },
+        {
+            "nombre": "Víctor José Verdú López",
+            "foto": "img/placeholder.png"
+        }
+    ],
+    "personas": [
+        {
+            "nombre": "Jesús Carrasco Fernández",
+            "foto": "img/placeholder.png"
+        },
+        {
+            "nombre": "Alberto Castaño Mercader",
+            "foto": "img/placeholder.png"
+        },
+        {
+            "nombre": "Marlon Joseph Cotto Sotomayor",
+            "foto": "img/placeholder.png"
+        },
+        {
+            "nombre": "Hamza Daoudi Jaafari",
+            "foto": "img/placeholder.png"
+        },
+        {
+            "nombre": "Domingo García Rodriguez",
+            "foto": "img/placeholder.png"
+        },
+        {
+            "nombre": "Francisco José López Espinosa",
+            "foto": "img/placeholder.png"
+        },
+        {
+            "nombre": "Elena López Gambín",
+            "foto": "img/placeholder.png"
+        },
+        {
+            "nombre": "Uriel López Vidal",
+            "foto": "img/placeholder.png"
+        },
+        {
+            "nombre": "Francisco José Madrid García",
+            "foto": "img/placeholder.png"
+        },
+        {
+            "nombre": "Álvaro Martínez Cuadros",
+            "foto": "img/placeholder.png"
+        },
+        {
+            "nombre": "Uriel Martínez Martínez",
+            "foto": "img/placeholder.png"
+        },
+        {
+            "nombre": "José Antonio Peñalver Hernández",
+            "foto": "img/placeholder.png"
+        },
+        {
+            "nombre": "Erikas Pilipavicius Pilipaviciene",
+            "foto": "img/placeholder.png"
+        },
+        {
+            "nombre": "Eduardo Piquer Sánchez",
+            "foto": "img/placeholder.png"
+        },
+        {
+            "nombre": "Jaime Rubio López",
+            "foto": "img/placeholder.png"
+        },
+        {
+            "nombre": "Adrián Vicente López",
+            "foto": "img/placeholder.png"
+        }
+    ]
+}

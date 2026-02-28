@@ -1,10 +1,14 @@
 const btn = document.getElementById("btnCargar");
+const btnReal = document.getElementById("btnReal");
 const cardsContainer = document.getElementById("cardsContainer");
 
 // Función que crea una card a partir de los datos de una persona
-function crearCard(persona) {
+// esProfesor: true para aplicar el badge verde a cualquier estado
+function crearCard(persona, esProfesor = false) {
     let statusClass = "status-unknown";
-    if (persona.estado === "Vivo") {
+    if (esProfesor) {
+        statusClass = "status-alive";
+    } else if (persona.estado === "Vivo") {
         statusClass = "status-alive";
     } else if (persona.estado === "Muerto") {
         statusClass = "status-dead";
@@ -20,14 +24,16 @@ function crearCard(persona) {
         <div class="card-content">
             <h3 class="card-name">${persona.nombre}</h3>
             <div class="card-info">
+                ${persona.alias ? `
                 <div class="info-item">
                     <span class="info-label">Alias:</span>
                     <span class="info-value">${persona.alias}</span>
-                </div>
+                </div>` : ''}
+                ${persona.estado ? `
                 <div class="info-item">
                     <span class="info-label">Estado:</span>
                     <span class="status-badge ${statusClass}">${persona.estado}</span>
-                </div>
+                </div>` : ''}
             </div>
         </div>
     `;
@@ -47,8 +53,9 @@ function crearCard(persona) {
     return card;
 }
 
-btn.addEventListener("click", () => {
-    fetch("prueba.json")
+// Función genérica que carga un JSON y renderiza las cards
+function cargarJSON(archivo) {
+    fetch(archivo)
         .then(respuesta => respuesta.json())
         .then(data => {
             cardsContainer.innerHTML = "";
@@ -58,7 +65,7 @@ btn.addEventListener("click", () => {
                 const profesoresGrid = document.createElement("div");
                 profesoresGrid.className = "profesores-container";
                 data.profesores.forEach(profesor => {
-                    profesoresGrid.appendChild(crearCard(profesor));
+                    profesoresGrid.appendChild(crearCard(profesor, true));
                 });
                 cardsContainer.appendChild(profesoresGrid);
             }
@@ -73,4 +80,15 @@ btn.addEventListener("click", () => {
                 cardsContainer.appendChild(alumnosGrid);
             }
         });
+}
+
+btn.addEventListener("click", () => {
+    cargarJSON("mentira.json");
+    btn.style.display = "none";
+    btnReal.style.display = "inline-block";
+});
+
+btnReal.addEventListener("click", () => {
+    cargarJSON("verdad.json");
+    btnReal.style.display = "none";
 });

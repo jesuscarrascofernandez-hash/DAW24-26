@@ -103,6 +103,33 @@ header h1::before {
     transform: scale(0.98);
 }
 
+#btnReal {
+    display: none;
+    padding: 15px 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Fira Code', monospace;
+    color: #0d0d0d;
+    background: #ff4444;
+    border: 2px solid #ff4444;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 0 10px rgba(255, 68, 68, 0.5);
+}
+
+#btnReal:hover {
+    background: transparent;
+    color: #ff4444;
+    box-shadow: 0 0 20px rgba(255, 68, 68, 0.8), inset 0 0 20px rgba(255, 68, 68, 0.1);
+}
+
+#btnReal:active {
+    transform: scale(0.98);
+}
+
 .cards-container {
     display: flex;
     flex-direction: column;
